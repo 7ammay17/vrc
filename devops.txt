@@ -1,0 +1,123 @@
+﻿
+                   my self is Rajesh.i have 4+years of expeerience  as a devops engineer
+                   currantly iam working in DIGISPACE and i worked o three projects preset we are workig o macy omlie retail store
+                   team size was 7 amd i am working as team member		   
+				   
+                      i have used various Devops tools like
+1.  Git(version control)
+2. jenkins for continuous integration),
+3. maven as build tool
+4. sonarqube for code analysis 
+5. nexus for artifact repositiry 
+6. anible for configuration management
+7. docker for containerization
+8. and kubernetes for container orchestration
+
+i also  storng on aws cloud services like 
+ec2 instances and iam role,s3,lambda 
+i have good  knowledge with networking concepts gateways
+route tables vpn connections apart this cloud 
+watch                      
+
+coming to my day to day activities
+        checkuing email/jira tickets
+        checking notifications from monitoring system
+        provide help and support to developers like software install
+        providing support for production servers
+        creating jenkins jobs for deployment
+•	Integrating Maven with SCM tools and deployment tools.
+•	Managing plugins, dependencies, goals, phases, scope, dependency range, snapshot and version in pom.xml.
+        automate  build process by using shell scripts.
+        deploying code on prod services
+  	Troubleshooting build issues, release issues and environment issues.
+        checking for proper approvals befor code release like quality assurance of test
+        build and release process means when developer commints code into git.
+        perious code and  latest code merging will get  acess like team lead and  manager
+        Interact with AD team and support them if any SCM or build issues.
+ any new release comes
+ to picture as part of release process yaml changes
+ variables conflicts
+ everythink will come to my plate mean while the  
+ operation issues like upgardes patches 
+ and any of the  issues like heldery tickets  
+all this be part of operations taken care by us
+    
+
+
+
+For Devops Tool
+================
+1.  git used for managing git repositories using various git commands like push pull,merge,clione,branch,rebase managing user acess
+2. jenkins we used settng jenkins server we setup master and slave configuratios,and 
+managing ci/cd jobs and adding jenkins plugins and integrate other devops tools like git maven ansible sonarqube nexus etc
+3. coming to ansible setting up ansible control server and writing playbooks and roles and managing ansible hosts 
+4. and coming to docker setup docker enviroment and wiriting dockerfikles and creaating custon images and stting up private docker 
+   registry
+5.comes to kubernetes
+  setup kubernets enviroment on aws and wirting depolyment files and serves files
+  and manging containers on pods and managing kubernetes nodes 
+
+
+ 
+
+
+
+
+
+
+
+1.dokerfile
+FROM ubuntu
+MAINTAINER rajesh 
+RUN apt-get update
+CMD ["echo","Hello World...! from my first docker image"]
+
+---yaml.file
+.name:nginx install & start services
+ hosts:all
+ become:true
+
+ tasks 
+.name:install nginx
+ yum:
+  name:nginx
+  state:latest
+.name:start nginx
+ service:
+    name:nginx
+    state:started
+ 
+
+scripted
+node{
+    stage ["build"]{
+    echo"welcome to Build stage"
+    }
+    stage["Test"]{
+    echo"welcome to Test Stage"
+    }
+     stage["QA"]{
+     echo"welcome To QA stage"
+   }
+     stage["Depoly"]{
+}
+}
+
+
+declartive pipleline
+
+pipeline{
+        agent any
+        stages{
+              stage["build"]{
+               steps{
+               echo"welcome to Build stage"
+            }
+           }
+            stage[Test"]{
+             steps{
+             echo"welcome to stage"
+}
+}
+intervew process.txt
+Displaying intervew process.txt.
